@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
             topBar.classList.add("show");
             arrow.classList.add("hide");
         } else {
-            topBar.classList.add("show"); // On garde la top bar visible
+            topBar.classList.add("show");
         }
     });
 });

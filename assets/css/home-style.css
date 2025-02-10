@@ -30,10 +30,10 @@ body {
     background-color: var(--marian-blue);
     color: var(--tea-green);
     
-    transition: top 0.3s ease-in-out; /* Animation fluide */
+    transition: top 0.3s ease-in-out;
 }
 #top-bar.show {
-    top: 0; /* Descend à sa place */
+    top: 0;
 }
 
 .top-bar-a:not(:first-child) {
@@ -49,29 +49,29 @@ body {
 /*Top Bar*/
 .main-title {
     display: flex;
-    justify-content: center;  /* Centre horizontalement */
-    align-items: center;  /* Centre verticalement */
-    height: 100vh;  /* Hauteur de l'écran */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     text-align: center;
     font-size: 50px;
     color: var(--phthalo-blue);
 }
 #arrow {
     position: fixed;
-    bottom: 10px;  /* Distance par rapport au bas de l'écran */
-    left: 50%;  /* Centrer horizontalement */
-    transform: translateX(-50%);  /* Ajuste la position pour centrer correctement */
-    width: 50px;  /* Taille de l'image */
-    height: auto;  /* Garder les proportions de l'image */
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: auto;
 
     transition: top 0.3s ease-in-out;
 }
 #arrow.hide {
     display: none;
     position: fixed;
-    bottom: 10px;  /* Distance par rapport au bas de l'écran */
-    left: 50%;  /* Centrer horizontalement */
-    transform: translateX(-50%);  /* Ajuste la position pour centrer correctement */
-    width: 50px;  /* Taille de l'image */
-    height: auto;  /* Garder les proportions de l'image */
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: auto;
 }
