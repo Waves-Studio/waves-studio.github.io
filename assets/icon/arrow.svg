@@ -1,8 +1,8 @@
 <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_67_11)">
-<rect x="2" y="16.8284" width="4" height="40" rx="2" transform="rotate(-45 2 16.8284)" fill="black"/>
-<rect x="27.4558" y="42.2843" width="40" height="4" rx="2" transform="rotate(-45 27.4558 42.2843)" fill="black"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M30.2842 39.4558L30.9913 38.7487C30.6008 39.1393 29.9677 39.1393 29.5771 38.7487L30.2842 39.4558Z" fill="black"/>
+<rect x="2" y="16.8284" width="4" height="40" rx="2" transform="rotate(-45 2 16.8284)" fill="#020887"/>
+<rect x="27.4558" y="42.2843" width="40" height="4" rx="2" transform="rotate(-45 27.4558 42.2843)" fill="#020887"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M30.2842 39.4558L30.9913 38.7487C30.6008 39.1393 29.9677 39.1393 29.5771 38.7487L30.2842 39.4558Z" fill="#020887"/>
 </g>
 <defs>
 <clipPath id="clip0_67_11">
