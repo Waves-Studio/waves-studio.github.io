@@ -1,7 +1,9 @@
 @font-face {
     font-family: vg5000;
-    src: url(/assets/font/VG5000-Regular.otf);
+    src: url(/assets/font/VG5000-Regular.otf) format("opentype");
+    font-display: swap;
 }
+
 :root {
     --phthalo-blue: #020887ff;
     --marian-blue: #334195ff;
@@ -22,6 +24,7 @@ body {
     font-family: vg5000;
     color: var(--marian-blue);
     background-color: var(--tea-green);
+    box-sizing: border-box;
 }
 
 /*Top Bar*/
@@ -53,8 +56,8 @@ body {
 .top-bar-a:not(:first-child):active {
     background-color: var(--tea-green);
     color: var(--phthalo-blue);
-    margin-left: var(--spacing-medium);
 }
+
 /*Top Bar*/
 
 /*Main Effect*/
@@ -83,6 +86,7 @@ body {
     bottom: var(--spacing-small);
     left: 50%;
     transform: translateX(-50%);
+    z-index: 10;
     width: var(--spacing-large);
     height: auto;
 }
