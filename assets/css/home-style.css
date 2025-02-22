@@ -3,7 +3,6 @@
     src: url(/assets/font/VG5000-Regular.otf) format("opentype");
     font-display: swap;
 }
-
 :root {
     --phthalo-blue: #020887ff;
     --marian-blue: #334195ff;
@@ -26,7 +25,6 @@ body {
     background-color: var(--tea-green);
     box-sizing: border-box;
 }
-
 /*Top Bar*/
 #top-bar {
     position: fixed;
@@ -57,7 +55,6 @@ body {
     background-color: var(--tea-green);
     color: var(--phthalo-blue);
 }
-
 /*Top Bar*/
 
 /*Main Effect*/
