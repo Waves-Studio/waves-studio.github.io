@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const mainTitle = document.querySelector(".main-title");
 
     window.addEventListener("scroll", function () {
-        if (window.scrollY > 50) {
+        if (window.scrollY > 50) { 
             topBar.classList.add("show");
             arrow.classList.add("hide");
             mainTitle.classList.add("small-title");
@@ -13,3 +13,4 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
+

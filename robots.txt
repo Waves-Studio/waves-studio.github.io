@@ -1,0 +1,15 @@
+User-agent: *
+Disallow: /assets/
+Disallow: /axo.waves-studio.xyz/
+Disallow: /spacy.waves-studio.xyz/
+Disallow: /springy.waves-studio.xyz/
+Disallow: /zohoverify/
+
+Allow: /index.html
+Allow: /about.html
+Allow: /branding.html
+Allow: /contact-us.html
+Allow: /projects.html
+
+Sitemap: https://waves-studio.xyz/sitemap.xml
+

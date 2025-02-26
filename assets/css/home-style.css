@@ -25,7 +25,6 @@ body {
     background-color: var(--tea-green);
     box-sizing: border-box;
 }
-
 /*Top Bar*/
 #top-bar {
     position: fixed;
